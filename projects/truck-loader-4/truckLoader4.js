@@ -2129,7 +2129,7 @@ $jscomp.scope = {}, $jscomp.ASSUME_ES5 = !1, $jscomp.ASSUME_NO_NATIVE_MAP = !1, 
             mask4: null,
             preinit: function () {
                 var t = this.splash = k.initSpriteUI("splash");
-                t.set_x(t.get_x() + this.splash.get_width() / 2), (t = this.splash).set_y(t.get_y() + this.splash.get_height() / 2), this.splash.update(1), this.addChild(this.splash), this.timerSplash.addEventListener("timerComplete", m(this, this.init)), k.checkUrl("sobloxsy.com socoolgames.sobloxsy.com socoolgamesfiles.sobloxsy.com edit-socoolgamesfiles.sobloxsy.com dev.sobloxsy.com bestphysics.com".split(" ")), this.timerSplash.start()
+                t.set_x(t.get_x() + this.splash.get_width() / 2), (t = this.splash).set_y(t.get_y() + this.splash.get_height() / 2), this.splash.update(1), this.addChild(this.splash), this.timerSplash.addEventListener("timerComplete", m(this, this.init)), k.checkUrl("sobloxsy.com socoolgames.sobloxsy.com socoolgamesfiles.sobloxsy.com ".split(" ")), this.timerSplash.start()
             },
             init: function (t) {
                 this.timerSplash.removeEventListener("timerComplete", m(this, this.init)), this.removeEventListener("enterFrame", m(this, this.onEnterFrame)), this.addEventListener("enterFrame", m(this, this.onEnterFrame)), (t = this.mainBackGround = k.initSpriteUI("menu")).set_x(t.get_x() + this.mainBackGround.get_width() / 2), (t = this.mainBackGround).set_y(t.get_y() + this.mainBackGround.get_height() / 2), this.mainBackGround.set_cacheAsBitmap(!0), this.addChild(this.mainBackGround), this.removeChild(this.splash), this.play = k.initAnimation("play", "ui"), this.play.set_x(350), this.play.set_y(440), this.play.showBehavior("out"), this.addChild(this.play), this.play.buttonMode = !0, this.play.addEventListener("mouseDown", m(this, this.goToPlay)), this.play.addEventListener("mouseOver", m(this, this.overMouse)), this.play.addEventListener("mouseOut", m(this, this.outMouse)), L.current.stage.removeEventListener("resize", m(this, this.resizeStage)), L.current.stage.addEventListener("resize", m(this, this.resizeStage)), this.title = new ib(Ma.getBitmapData("img/ui/title.png")), this.addChild(this.title), this.title.set_x(176), this.title.set_y(110), this.addMask(), La.trace("afterinit", {
@@ -2168,7 +2168,7 @@ $jscomp.scope = {}, $jscomp.ASSUME_ES5 = !1, $jscomp.ASSUME_NO_NATIVE_MAP = !1, 
                     lineNumber: 402,
                     className: "MenuState",
                     methodName: "goToPlay"
-                }), this.clearState(), this.playState = new Tf(this._parent), k.maskesAddedM = !1, A.play("SoundGameButonsClick"), k.curSprite = this.playState, k.resizeGame(), k.resizeStage(k.curSprite), k.offsetPage(), L.trace("windows displayed"), k.checkUrl("sobloxsy.com socoolgames.sobloxsy.com socoolgamesfiles.sobloxsy.com edit-socoolgamesfiles.sobloxsy.com dev.sobloxsy.com bestphysics.com".split(" ")) && null != parent.cmgGameEvent && parent.cmgGameEvent("start"), k.blackScreenTween(this.playState)
+                }), this.clearState(), this.playState = new Tf(this._parent), k.maskesAddedM = !1, A.play("SoundGameButonsClick"), k.curSprite = this.playState, k.resizeGame(), k.resizeStage(k.curSprite), k.offsetPage(), L.trace("windows displayed"), k.checkUrl("sobloxsy.com socoolgames.sobloxsy.com socoolgamesfiles.sobloxsy.com ".split(" ")) && null != parent.cmgGameEvent && parent.cmgGameEvent("start"), k.blackScreenTween(this.playState)
             },
             onEnterFrame: function (t) {
                 t = L.getTimer() - this.lastTime, this.mainBackGround.update(t), this.play.update(t), this.play.update(t), this.lastTime = L.getTimer()
@@ -2191,7 +2191,7 @@ $jscomp.scope = {}, $jscomp.ASSUME_ES5 = !1, $jscomp.ASSUME_NO_NATIVE_MAP = !1, 
                 lineNumber: 379,
                 className: "PlayState",
                 methodName: "new"
-            }), k.checkUrl("sobloxsy.com socoolgames.sobloxsy.com socoolgamesfiles.sobloxsy.com edit-socoolgamesfiles.sobloxsy.com dev.sobloxsy.com bestphysics.com".split(" ")) && null != parent.cmgGameEvent && parent.cmgGameEvent("start", k.currentLevel)
+            }), k.checkUrl("sobloxsy.com socoolgames.sobloxsy.com socoolgamesfiles.sobloxsy.com ".split(" ")) && null != parent.cmgGameEvent && parent.cmgGameEvent("start", k.currentLevel)
         };
         g.PlayState = ee, ee.__name__ = ["PlayState"], ee.__super__ = Da, ee.prototype = y(Da.prototype, {
             handJoint: null,
@@ -2881,7 +2881,7 @@ $jscomp.scope = {}, $jscomp.ASSUME_ES5 = !1, $jscomp.ASSUME_NO_NATIVE_MAP = !1, 
                 this.back.set_x(-2 + e.get_x()), this.back.set_y(-2 + e.get_y()), this.back.smoothing = !0, this.back.set_visible(!0)
             },
             goToRestart: function (t) {
-                A.play("SoundGameButonsClick"), this.stopTheGame(), this.refreshWorld(), this.clearState(), k.offsetPage(), L.trace("windows displayed"), A.play("SoundGameButonsClick"), t = new ee(this._parent, this.cLevel), k.resizeGame(), k.resizeStage(k.theGame), k.offsetPage(), L.trace("windows displayed"), k.theGame.addChild(t), k.blackScreenTween(t), k.checkUrl("sobloxsy.com socoolgames.sobloxsy.com socoolgamesfiles.sobloxsy.com edit-socoolgamesfiles.sobloxsy.com dev.sobloxsy.com bestphysics.com".split(" ")) && null != parent.cmgGameEvent && parent.cmgGameEvent("replay", k.currentLevel)
+                A.play("SoundGameButonsClick"), this.stopTheGame(), this.refreshWorld(), this.clearState(), k.offsetPage(), L.trace("windows displayed"), A.play("SoundGameButonsClick"), t = new ee(this._parent, this.cLevel), k.resizeGame(), k.resizeStage(k.theGame), k.offsetPage(), L.trace("windows displayed"), k.theGame.addChild(t), k.blackScreenTween(t), k.checkUrl("sobloxsy.com socoolgames.sobloxsy.com socoolgamesfiles.sobloxsy.com ".split(" ")) && null != parent.cmgGameEvent && parent.cmgGameEvent("replay", k.currentLevel)
             },
             goToLevels: function (t) {
                 A.play("SoundGameButonsClick"), 0 == A.loopPaused ? (this.levels.showBehavior("selectDisable"), A.stopLoop()) : (A.resumeLoop(), this.levels.showBehavior("selectEnable"))
