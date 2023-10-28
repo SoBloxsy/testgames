@@ -10521,7 +10521,7 @@ function _32(_i9, _j9) {
     _i9._og = 0 ? 1 : 0;
     _i9._pg = 0 ? 1 : 0;
     _i9._qg = "circloO 2";
-    _i9._rg = "A game by Florian van Strien with music by Stijn Cappetijn.";
+    _i9._rg = "A game by Florian van Strien with music by Stijn Cappetijn. \nSoCoolGames";
     if (!(_i9._sg instanceof Array)) {
         _i9._sg = [];
         _i9._sg._w = 884261686
@@ -15851,8 +15851,8 @@ function _17(_i9, _j9) {
                     _co._w = -890
                 }
                 _co[~~0] = "sobloxsy.com";
-                _co[~~1] = "coolmath-games.com";
-                _co[~~2] = "cmatgame.local";
+                _co[~~1] = "socoolgamesfiles.sobloxsy.com";
+                _co[~~2] = "localhost:3000";
                 _co[~~3] = "127.0.0.1";
                 _co[~~4] = "192.168.2.152";
                 var _do = 0 ? 1 : 0;
