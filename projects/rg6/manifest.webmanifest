@@ -1,0 +1,12 @@
+{
+  "name": "Rhythm Galaxy",
+  "short_name": "Rhythm Galaxy",
+  "id": "com.example.gamename",
+  "description": "A game by Doctor Musik",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
